@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity() {
         Log.v(TAG, "VERBOSE: more verbose than DEBUG logs")
     }
 
-    private fun division() {
+    fun division() {
         val numerator = 60
         var denominator = 4
-        repeat(5) {
+        repeat(4) {
             Log.v(TAG, "${numerator / denominator}")
             denominator--
         }
